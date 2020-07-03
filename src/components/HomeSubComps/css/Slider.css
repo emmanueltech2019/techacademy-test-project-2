@@ -1,0 +1,73 @@
+
+ .carousel-item{
+    width: 200px;
+     height: auto;
+    
+}
+.slider-section{
+    margin: 0px;
+    background-color: #fff;
+    width: 100vw;
+}
+.slider-section img{
+    height: 384px;
+    width: 652px;
+}
+.sideContainer{
+    background-color: #fff;
+    width: 100vw;
+    /* height: 300px; */
+    padding: 30px 0px 30px 0;
+}
+.section-title{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 70px 0;
+}
+.sideContainer .section-title h2{
+    font: normal 600 30px/30px "Raleway", sans-serif !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    color: #5a2e8a !important;
+}
+.sideContainer .section-title span{
+    color: #e0dcd7 !important;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    display: block;
+    padding: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.testimonialgrid{
+    display:grid;
+    grid-template-columns: 0.6fr 4fr;
+}
+.carslidimgdiv{
+    position: relative;
+}
+.carslidimgdiv-content{
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+    color: #fff;
+}
+.carslidimgdiv-content h2{
+    color: #fff!important;
+}
+.testimonialgrid-2{
+    color: #fff;
+}
+.testimonialgrid img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border:  3px solid #fff;
+}
+.authore-name{
+    font-weight: 900;
+    font-size: 20px;
+}

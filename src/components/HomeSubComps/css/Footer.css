@@ -1,0 +1,122 @@
+.myfooter{
+    background-color: #fff;
+    height: 152px;
+    width: 100vw;
+    padding: 20px;
+    padding-top: 0;
+}
+.myfooter ul{
+    display: inline-flex;
+    padding: 0;
+    
+}
+.myfooter li{
+    list-style: none;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.myfooter li:first-child{
+    padding: 20px 20px 20px 0px;
+    color: #8e9198 !important;
+
+    
+
+
+
+
+
+}
+.myfooter p{
+    padding: 2px 0 0 0;
+}
+.myfooter .container{
+    display: grid;
+    grid-template-columns: 8fr 3fr;
+}
+/* .socialicon{
+    float: right;
+}
+.clear{
+    clear: both;
+} */
+.socialicon{
+    width: 50px!important;
+    height: 100px!important;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 500px;
+}
+.socialicon i{
+    text-align: right;
+    justify-content: end;
+    align-content: flex-end;
+    font-size: 16px;  
+    line-height: 31px;
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    margin: 0px 10px 0px 0px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #555;
+}
+
+ select{
+    border: none;
+    color: rgb(173, 169, 169);
+    width:70px;
+}
+
+.myfooter-1{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-gap: 3em;
+}
+.myfooter-2{
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    grid-gap: 3em;
+}
+.thestoreimg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 300px;
+}
+.thestoreimg img{
+    float: right;
+    padding: 5px ;
+}
+/* .socialicon i{
+    text-align: right;
+    font-size: 16px;  
+    line-height: 31px;
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    margin: 0px 10px 0px 0px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #555;
+} */
+@media(max-width:360px){
+    .myfooter .container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

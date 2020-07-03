@@ -1,0 +1,109 @@
+.minnav{
+    
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    padding: 15px;
+}
+/* .minnav button{
+    color: #d64521;
+    background-color: #fff;
+    border: 1px solid #d64521;
+    padding: 10px 15px;
+    font: 12px Roboto;
+} */
+.header1{
+    background-color: #fff;
+    height: 73px;
+}
+.header1 button{
+    
+}
+.property-btn{
+    color: #d64521;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-block;
+    padding: 10px 15px;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #d64521;
+    border: 1px solid #d64521;
+    border-radius: 3px;
+    outline: none;
+    border-color: #d64521 !important;
+    background-color: #fff;
+}
+.contact-info {
+    line-height: normal;
+    display: inline-block;
+    padding: 0;
+    margin: 0 40px;
+    vertical-align: middle;
+    font: normal 14px/24px "Roboto", sans-serif;
+    letter-spacing: 1px;
+    text-transform: none;
+    color: #777777 !important;
+}
+.header-1-cont{
+    float:right;
+}
+@media(max-width:768px){
+    .minnav{
+        display: grid;
+        grid-template-columns: 2fr 4fr;
+        padding: 10px 1px 0px 8px!important;
+        margin : 0px!important;
+    }
+}
+@media(max-width:360px){
+    .minnav{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px 1px 0px 8px!important;
+        margin : 0px!important;
+    }
+    .header1{
+        background-color: #fff;
+        height: 130px;
+    }
+    .property-btn{
+        color: #d64521;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: normal;
+        display: inline-block;
+        padding: 10px 15px;
+        vertical-align: middle;
+        text-decoration: none;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #d64521;
+        border: 1px solid #d64521;
+        border-radius: 3px;
+        outline: none;
+        border-color: #d64521 !important;
+        background-color: #fff;
+        width: 120px;
+    }
+    .contact-info {
+        line-height: normal;
+        display: inline-block;
+        padding: 0;
+        margin: 0 10px;
+        vertical-align: middle;
+        font: normal 14px/24px "Roboto", sans-serif;
+        letter-spacing: 1px;
+        text-transform: none;
+        color: #777777 !important;
+    }
+    .hv-logo{
+        margin: auto;
+    }
+    .header-1-cont{
+        float:right;
+        margin-top: 20px;
+    }
+}

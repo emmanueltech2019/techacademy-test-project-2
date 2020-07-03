@@ -1,0 +1,70 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.img-header {
+  background-image: url('./images/patter-1-1.jpg');
+  height: 300px;
+  padding: 50px;
+  font-size: 100px;
+  color: #fff;
+  opacity: 1;
+  font-weight: bold;
+  margin-bottom: -15px;
+  margin-top: -15px;
+  position: relative;
+}
+
+.course-one__top-title__curve {
+  width: 100%;
+  height: 60px;
+  background-image: url(./images/course-title-curve.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.animate1 {
+  height: 40vmin;
+  pointer-events: none;
+  background-color: #343a40;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  z-index: 1;
+  background-color: #1fc8db;
+  background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .animate1 {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.NavLogo {
+  color: white;
+  font-weight: bolder;
+  font-size: "4vh";
+  font-size: " monospace";
+}
+
+.loginicon {
+  color: teal;
+  background-color: white;
+  margin: auto;
+}
